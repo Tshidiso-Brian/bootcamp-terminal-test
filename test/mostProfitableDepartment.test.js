@@ -44,11 +44,10 @@ describe('The most-Profitable-Department function', function(){
     ];
 
     it('should return the most profitable department', function(){
-        assert.equal('outdoor', mostProfitableDepartment(salesData), "Most profitable department is 'outdoor' for dataset 1");
+        assert.equal('outdoor', mostProfitableDepartment(salesData), "Most profitable department is 'outdoor' for dataset 1");    
+    });
+
+    it('should return the most profitable department', function(){
         assert.equal('electronics', mostProfitableDepartment(salesData2), "Most profitable department is 'electronics' for dataset 2");
     });
-    // it('should greet Karen correctly', function(){
-    //     // this test will fail - can you fix it?
-    //     assert.equal('Hello, Karen', greet('Karen'));
-    // });
 });
